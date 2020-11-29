@@ -42,7 +42,7 @@ $green:   #56CC9D !default;
 $teal:    #20c997 !default;
 $cyan:    #6CC3D5 !default;
 
-$primary:       #78C2AD !default;
+$primary:       #617d94 !default;
 $secondary:     #F3969A !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -55,7 +55,7 @@ $yiq-contrasted-threshold: 250 !default;
 
 // Body
 
-$body-color:                $gray-600 !default;
+$body-color:                $gray-800 !default;
 
 // Components
 
@@ -66,7 +66,7 @@ $border-radius-sm:            .3rem !default;
 // Fonts
 
 $headings-font-family:        "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
-$headings-color:              $gray-700 !default;
+$headings-color:              $gray-900 !default;
 
 // Tables
 
@@ -83,8 +83,8 @@ $navbar-dark-color:                 rgba($white,.6) !default;
 $navbar-dark-hover-color:           $white !default;
 
 $navbar-light-color:                rgba($black,.3) !default;
-$navbar-light-hover-color:          $gray-700 !default;
-$navbar-light-active-color:         $gray-700 !default;
+$navbar-light-hover-color:          $gray-900 !default;
+$navbar-light-active-color:         $gray-900 !default;
 $navbar-light-disabled-color:       rgba($black,.1) !default;
 
 // Pagination

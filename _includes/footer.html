@@ -1,40 +1,47 @@
 
-<div class="py-5 border-top">
+<!-- Site footer -->
+<footer class="site-footer">
   <div class="container">
-
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
     <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p>SomndusStudio.github.io is as first a documentation website. Currently <i>Anime Character Creator</i>, <i>Simple Fly Ride System</i></p>
+        <p><a href="https://codepen.io/scanfcode/pen/MEZPNd">Scanfcode codepen used for footer</a></p>
+        <p><a href="https://codepen.io/StudioKonKon/pen/yGgLar">StudioKonKon codepen used (sidebar and header)</a></p>
+        <p><a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a></p>
+      </div>
 
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
+      <div class="col-xs-6 col-md-3">
+        <h6>Sofwtare used</h6>
+        <ul class="footer-links">
+          <li>Gimp</li>
+          <li>Blender 3D</li>
+          <li>ClipPaintStudio</li>
+          <li>Unreal Engine 4</li>
         </ul>
       </div>
 
-
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
-
-        <p>
-          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
+      <div class="col-xs-6 col-md-3">
+        <h6>Social Links</h6>
+        <ul class="footer-links">
+          <li><a href="https://discord.gg/2yWxCmA">Discord</a></li>
+          <li><a href="https://twitter.com/SchartierD">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">
         </p>
       </div>
-
     </div>
-
   </div>
-</div>
+</footer>
+<!-- JS Script -->
+<script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.6.3/js/jquery.overlayScrollbars.min.js"></script>
+<script src="{{ "/assets/javascript/somndus/somndus-main.js" | relative_url }}"></script>

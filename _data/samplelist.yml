@@ -1,0 +1,40 @@
+docs:
+
+- title: Anime Character Creator
+  url: docs/acc/index.html
+  description: Documentation about Anime Character Creator 1.5
+  cover: /assets/img/ACC_Default_Cover.png
+  docs: 
+    - title: Introduction
+      url: docs/acc/index.html
+      description: Introduction of ACC
+      hideInChapter: true
+    - title: Body and Head
+      url: docs/acc/body_and_head.html
+      description: Understand how body and head work
+    - title: From Default ThirdPersonBP
+      url: docs/acc/from_default_third_character_bp.html
+      description: How implement ACC from default ThirdPersonBP
+    - title: How Retarget Animation
+      url: docs/acc/how_retarget_animation.html
+      description: How retarget some Epic Skeleon animations with ACC Character
+      
+
+- title: Anime Fighter Template
+  url: docs/aft/index.html
+  description: Documentation about Anime Fighter Template 1.0 (Not yet published)
+  cover: /assets/img/AFT_Default_Cover.png
+
+- title: Simple Fly Ride
+  url: docs/sfr/index.html
+  description: Documentation about SimpleFly Ride 1.0
+  cover: /assets/img/SFR_Default_Cover.png
+  docs: 
+  - title: Introduction
+    url: docs/sfr/index.html
+    description: Introduction of ACC
+    hideInChapter: true
+  - title:  Use ACC in Simple Fly Ride
+    url: docs/sfr/use_acc_wtih_sfr.html
+    description: How implement Anime Character Creator in Simple Fly Ride System
+    cover: /assets/img/SFR_Default_Cover.png
