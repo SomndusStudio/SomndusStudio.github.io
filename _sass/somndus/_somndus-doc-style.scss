@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
 
     .ss-post-link{
         position: relative;
@@ -73,16 +74,16 @@
 }
 
 @include media_size("tablet"){
+    .ss-card{
+        margin-bottom: 0;
+    }
+
     .ss-col-card {
         padding: 2rem 0;
     }
 }
 
 img{
-    // display: flex;
-    // flex-flow: column wrap;
-    // justify-content: center;
-    // margin: 0 auto;
     max-width: 100%;
 }
 
@@ -167,4 +168,87 @@ img{
 }
 .ss-documentation-card{
     padding: 2rem 0;
+}
+
+// Collapse
+/* accordion-1 */
+.ss-accordion {
+    position: relative;
+    box-shadow: 0px 1px 7px #DBDBDB;
+    margin-bottom: 1rem;
+
+    .ss-collapse-head{
+    background-color: #EAEFF4;
+    color: #563e6e;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .arrow{
+    position: absolute;
+    color: #563e6e;
+    right: 30px;
+    top: 30px;
+    font-size: 60px;
+    transition: 0.25s ease;
+    opacity: 0.3;
+    transform: rotate(-90deg);
+  }
+  
+  .ss-collapse-head:hover .arrow{
+    opacity: 1;
+  }
+
+  .ss-collapse-head:hover, .ss-collapse-head .active{
+    background-color: rgb(122, 191, 255);
+  }
+ 
+  .arrow-animate{
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  .ss-collapse-content{
+    background-color: #FFFFFF;
+    display: none;
+    padding: 20px 30px;
+    color: #333333;
+  }
+}
+
+// ====================================
+// Figure
+// ====================================
+
+.ss-figure{
+    display: inline-block;
+    position: relative;
+
+    img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .ss-fig-description{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        padding: 5%;
+        margin-bottom: 5.5%;
+        color: #ccd;
+        background: rgba(51,51,68,.8);
+        visibility: hidden; 
+    }
+
+    a{
+        color: #bbc;
+    }
+
+    figcaption{
+        text-align: center;
+        font-size: 1rem;
+        color: #858593;
+    }
 }

@@ -180,3 +180,26 @@ document.addEventListener('DOMContentLoaded', function(event) {
    $('#ss-main').show();
    $('#loading-wrapper').hide();
  })
+
+
+/***************************/
+/** Collaspe **/
+/***************************/
+ $('.ss-collapse-head').click(function(){
+   $(this).parent().toggleClass('active');
+   $(this).parent().find('.arrow').toggleClass('arrow-animate');
+   $(this).parent().find('.ss-collapse-content').slideToggle(280);
+ });
+
+/***************************/
+/** Figure **/
+/***************************/
+ $('figure').on({
+   mouseenter: function () {  $(this).find(".ss-fig-description").css('visibility','visible').hide().fadeIn();
+   }
+ });
+ $('figure').on({
+   mouseleave: function () {
+      $(this).find(".ss-fig-description").fadeOut(); 
+   }
+ });

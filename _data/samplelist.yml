@@ -24,6 +24,32 @@ docs:
   url: docs/aft/index.html
   description: Documentation about Anime Fighter Template 1.0 (Not yet published)
   cover: /assets/img/AFT_Default_Cover.png
+  docs: 
+    - title: Introduction
+      url: docs/aft/index.html
+      description: Introduction of ACC
+      hideInChapter: true
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Global system work
+      url: docs/aft/global_system_work.html
+      description: Understand how the template work
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Fighter Information
+      url: docs/aft/fighter_information.html
+      description: How each fighter character are organized
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Input Buffer
+      url: docs/aft/input_buffer.html
+      description: How input work
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Fighter Action
+      url: docs/aft/fighter_action.html
+      description: How fighter actions works
+      cover: /assets/img/AFT_Default_Cover.png
+    - title: Debug in stage
+      url: docs/aft/debug_stage.html
+      description: Fight Stage Debugging
+      cover: /assets/img/AFT_Default_Cover.png
 
 - title: Simple Fly Ride
   url: docs/sfr/index.html
