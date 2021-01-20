@@ -50,6 +50,10 @@ docs:
       url: docs/aft/debug_stage.html
       description: Fight Stage Debugging
       cover: /assets/img/AFT_Default_Cover.png
+    - title: FAQ
+      url: docs/aft/faq.html
+      description: FAQ about Anime Fighter Template
+      cover: /assets/img/AFT_Default_Cover.png
 
 - title: Simple Fly Ride
   url: docs/sfr/index.html
