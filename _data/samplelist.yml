@@ -18,6 +18,13 @@ docs:
     - title: How Retarget Animation
       url: docs/acc/how_retarget_animation.html
       description: How retarget some Epic Skeleon animations with ACC Character
+    - title: Release Notes
+      url: docs/acc/index.html
+      description: How retarget some Epic Skeleon animations with ACC Character
+      docs: 
+        - title: ACC 1.9.1
+          url: docs/acc/release_notes/1_9_1/index.html
+          description: Change log about ACC 1.9.1
       
 
 - title: Anime Fighter Template
