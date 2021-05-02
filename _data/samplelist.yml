@@ -45,6 +45,10 @@ docs:
       url: docs/aft/fighter_information.html
       description: How each fighter character are organized
       cover: /assets/img/AFT_Default_Cover.png
+    - title: How add a character
+      url: docs/aft/how_add_character.html
+      description: How add a character
+      cover: /assets/img/AFT_Default_Cover.png
     - title: Input Buffer
       url: docs/aft/input_buffer.html
       description: How input work
@@ -75,3 +79,21 @@ docs:
     url: docs/sfr/use_acc_wtih_sfr.html
     description: How implement Anime Character Creator in Simple Fly Ride System
     cover: /assets/img/SFR_Default_Cover.png
+
+- title: Anime Character Selector
+  url: docs/acs/index.html
+  description: Documentation about Anime Character Selector 1.0
+  cover: /assets/img/ACS_Default_Cover.png
+  docs: 
+  - title: Introduction
+    url: docs/acs/index.html
+    description: Introduction of ACS
+    hideInChapter: true
+  - title:  Global explain about ACS
+    url: docs/acs/global_explain.html
+    description: How ACS work
+    cover: /assets/img/ACS_Default_Cover.png
+  - title:  Replication usage in ACS
+    url: docs/acs/use_replication.html
+    description: How to use/test replication in ACS
+    cover: /assets/img/ACS_Default_Cover.png

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Anime Fighter Template - Introduction
+title: Anime Character Selector - Introduction
 ---
 
 <!-- Chapter  -->
 <div class="row">
-    {% for item in site.data.samplelist.docs[1].docs %}
+    {% for item in site.data.samplelist.docs[3].docs %}
       {% if item.hideInChapter %}
       {% else %}
         <div class="ss-col-card col-lg-4 col-md-6 col-sm-12">
