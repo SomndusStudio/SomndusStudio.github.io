@@ -12,8 +12,11 @@ img_doc_acs: "/assets/img/docs/acs/replication/"
 <!-- Section 1 -->
 <div class="ss-article-section">
     <!-- Method 1 -->
-    <p>If you want test replication from the Title map (ACS_Map_Title) you should use "Standalone" mode because the host will be 
-    is going to be the one who clicks the "Host" button and not the first PIE by default</p>
+    <p>If you want test replication from the Title map (ACS_Map_Title) you should use "Standalone" mode because the host will going to be the one who clicks the "Host" button and not the first PIE by default</p>
+    <div class="ss-warning">
+        <strong>WARNING ! </strong> If you don't launch in Standalone mode, you will have BP error "Accessed None trying to read property MainWidget". 
+        <br>In this map, only owning client can access her own widget.
+    </div>
     <img src="{{ page.img_doc_acs }}img_1.png" />
     <p>This method are used if you want each PIE select her own Party Account Mock (with her own UID)</p>
     <div class="ss-warning">
